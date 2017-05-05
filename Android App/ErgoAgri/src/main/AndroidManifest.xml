@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.chris.ergoagri" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/main_icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+
+
+        <activity
+            android:name=".MainMenu"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".CurrentData"
+            android:label="@string/title_activity_current_data"
+            android:parentActivityName=".MainMenu">
+        </activity>
+        <activity
+            android:name=".TempHistory"
+            android:label="@string/title_activity_temp_history"
+            android:parentActivityName=".MainMenu">
+        </activity>
+        <activity
+            android:name=".LightHistory"
+            android:label="@string/title_activity_light_history"
+            android:parentActivityName=".MainMenu">
+        </activity>
+        <activity
+            android:name=".MoistureHistory"
+            android:label="@string/title_activity_moisture_history"
+            android:parentActivityName=".MainMenu">
+        </activity>
+        <activity
+            android:name=".HumidHistory"
+            android:label="@string/title_activity_humid_history"
+            android:parentActivityName=".MainMenu">
+        </activity>
+        <activity
+            android:name=".LightGraph"
+            android:label="@string/title_activity_light_graph"
+            android:screenOrientation="landscape"
+            android:parentActivityName=".MainMenu"
+            >
+        </activity>
+        <activity
+            android:name=".TempGraph"
+            android:label="@string/title_activity_temp_graph"
+            android:screenOrientation="landscape"
+            android:parentActivityName=".MainMenu"
+            >
+        </activity>
+        <activity
+            android:name=".MoistureGraph"
+            android:label="@string/title_activity_moisture_graph"
+            android:screenOrientation="landscape"
+            android:parentActivityName=".MainMenu"
+            >
+        </activity>
+        <activity
+            android:name=".HumidGraph"
+            android:label="@string/title_activity_humid_graph"
+            android:screenOrientation="landscape"
+            android:parentActivityName=".MainMenu"
+            >
+        </activity>
+    </application>
+
+</manifest>

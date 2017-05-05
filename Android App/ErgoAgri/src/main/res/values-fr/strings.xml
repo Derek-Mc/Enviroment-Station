@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">ErgoAgri</string>
+
+    <string name="button1">Statut Actuel</string>
+    <string name="button2">Histoire de la Température</string>
+    <string name="button3">l\'histoire de Lumière</string>
+    <string name="button4">Historique de l\'Humidité</string>
+    <string name="button5">Humidité Histoire</string>
+    <string name="button6">Les Données de Mise à Jour</string>
+    <string name="action_settings">Paramètres</string>
+    <string name="title_activity_current_data">Données Actuelles</string>
+
+    <string name="hello_world">Bonjour le Monde</string>
+    <string name="title_activity_light_history">Histoire Lumière</string>
+    <string name="title_activity_moisture_history">Histoire de l\'Humidité</string>
+    <string name="title_activity_humid_history">Humidité Histoire</string>
+    <string name="title_activity_temp_history">Histoire de la Température</string>
+
+    <string name="Graph">Graphique</string>
+    <string name="title_activity_light_graph">Graphique Lumière</string>
+    <string name="title_activity_temp_graph">Graphique de la Température</string>
+    <string name="title_activity_moisture_graph">L\'Humidité Graphique</string>
+    <string name="title_activity_humid_graph">Humidité Graphique</string>
+</resources>
